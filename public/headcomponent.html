@@ -1,0 +1,8 @@
+{% if name != "" %}
+    <div>Hello {{name}}</div>
+{% else %}
+    <div>no name defined</div>
+{% endif %}
+<br/>
+En hier heb je een ander component:
+{% include "subcomponent.html" %}
