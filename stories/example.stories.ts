@@ -1,10 +1,12 @@
 import {StoryObj} from "@storybook/html";
 import {Liquid} from "liquidjs";
-const liquid = new Liquid({})
+const liquid = new Liquid({
+    extname: '.html',
+})
 
 
 export default {
-    title: 'Test',
+    title: 'Components/Example',
     args:{
       name: "Dit is een testnaam",
         color: "#ff0000"
