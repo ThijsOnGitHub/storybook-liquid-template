@@ -1,0 +1,12 @@
+<div class="side-bar" style="--side-bar-width:{{ sidebarWidth }}">
+    <div class="side-bar__menu-items">
+        {% for item in items %}
+            <div class="side-bar__menu-item"><div class="side-bar__menu-content"> {{ item }}</div></div>
+        {% endfor %}
+    </div>
+
+    <div class="side-bar__footer">
+        <img class="side-bar__footer-logo" src="{{ image }}">
+        <div class="side-bar__footer-text">{{ slogan }}</div>
+    </div>
+</div>
